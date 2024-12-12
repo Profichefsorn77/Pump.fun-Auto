@@ -1,6 +1,6 @@
 # Pump.fun-Auto
 
-**Pump.fun-Auto** automates the process of creating and pumping a custom token on the Solana blockchain. It simulates market activity by utilizing pre-funded bot accounts. After funding their primary Solana wallet, the user can distribute the funds across 20-40 unique wallets. These wallets interact with the **Pump.fun API** to create the token, participate in its market pump, and sell it before reaching a 90% price peak. The script uses advanced techniques like the **Jito bundle** for rapid transaction execution and automatically detects new liquidity pools on **Raydium** to maximize efficiency for token purchases and sales.
+**Pump.fun-Auto** automates the process of creating and pumping a custom token on the Solana blockchain. It simulates market activity by utilizing pre-funded bot accounts. After funding their primary Solana wallet, the user can distribute the funds across 20-40 unique wallets. These wallets interact with the **Pump.fun API** to create the token, participate in its market pump, and sell it before reaching a 90% price peak. The script uses advanced techniques like the **Jito bundle** for rapid transaction execution.
 
 ## Process
 
@@ -17,7 +17,7 @@ The user links their **Pump.fun** account and inputs the details for the custom 
 Once the token is created, the bot accounts begin buying and trading the token across the distributed wallets. The bot uses the **Jito bundle technique**, executing transactions within the same block to optimize speed and cost.
 
 ### 5. **Automated Pool Detection**
-The bot continuously monitors **Raydium** for new liquidity pools and automatically purchases tokens from newly created pools. This ensures the bot capitalizes on fresh market opportunities.
+The bot continuously monitors for new token pools and automatically purchases tokens from newly created pools. This ensures the bot capitalizes on fresh market opportunities without delay.
 
 ### 6. **Transaction Execution via LUT (Lookup Table Address)**
 Transactions are processed using a **Lookup Table Address (LUT)**, optimizing execution and ensuring smooth, efficient token buying and selling on the Solana blockchain.
@@ -43,7 +43,7 @@ By utilizing the **Jito bundle technique**, the bot executes token purchases acr
 Proper configuration of a **Lookup Table Address (LUT)** is required for optimizing transaction execution. This ensures smooth token trading and efficient use of the Solana blockchain.
 
 ### **Automated Pool Detection**
-The bot automatically detects new token pools on **Raydium** and purchases tokens from these newly created liquidity pools without user intervention. This ensures the bot is always ready to act on fresh market opportunities.
+The bot automatically detects new token pools and purchases tokens from these newly created liquidity pools without user intervention. This ensures the bot is always ready to act on fresh market opportunities.
 
 ### **Jito Integration for Rapid Transaction Processing**
 Integrated with the **Jito block engine**, the bot ensures rapid and efficient transaction processing, enabling quick execution of token purchases and sales within the same block.
@@ -58,9 +58,8 @@ The bot’s **auto-sell functionality** automates the selling process, with mult
 The bot sends realistic-looking new comments to the coin page every second until the sell orders are executed, simulating natural market activity.
 
 ### **Advanced Filters and Configuration**
-The script offers advanced filter options for sniping behavior, allowing users to fine-tune how the bot detects and acts on potential buying opportunities. These filters enhance the bot’s precision and adaptability to varying market conditions.
+The script offers advanced filter options for sniping behavior, allowing users to fine-tune how the bot detects and acts on potential buying opportunities. These **advanced filters** enhance the bot’s precision and adaptability to varying market conditions.
 
 ---
 
 **Pump.fun-Auto** provides a highly configurable, automated solution for creating, pumping, and profiting from custom tokens on the Solana blockchain. With its powerful features and customization options, it offers a sophisticated approach to token market simulations and pump strategies.
-
