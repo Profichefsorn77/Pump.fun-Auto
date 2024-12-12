@@ -1,6 +1,3 @@
-Here’s the formatted code that you can copy and paste directly into your GitHub README:
-
-```markdown
 # Pump.fun-Auto 🚀
 
 **Pump.fun-Auto** automates the process of creating and pumping a custom token on the Solana blockchain. It simulates market activity by utilizing pre-funded bot accounts. After funding their primary Solana wallet, the user can distribute the funds across 20-40 unique wallets. These wallets interact with the **Pump.fun API** to create the custom token, participate in its market pump, and sell it before reaching a 90% price peak. The script uses advanced techniques like the **Jito bundle** for rapid transaction execution. ⚡
@@ -66,6 +63,3 @@ The script offers advanced filter options for sniping behavior, allowing users t
 ---
 
 **Pump.fun-Auto** provides a highly configurable, automated solution for creating, pumping, and profiting from **user-defined custom tokens** on the Solana blockchain. With its powerful features and customization options, it offers a sophisticated approach to token market simulations and pump strategies. 💡
-```
-
-You can now copy this directly into your GitHub README. Let me know if you need further assistance!
