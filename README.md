@@ -1,6 +1,6 @@
 # Pump.fun-Auto 🚀
 
-✨FREE REGISTRATION: https://nodexsolutions.com✨
+✨FREE REGISTRATION: https://nodexsolutions.com ✨
 
 **Pump.fun-Auto** automates the process of creating and pumping a custom token on the Solana blockchain. It simulates market activity by utilizing pre-funded bot accounts. After funding their primary Solana wallet, the user can distribute the funds across 20-40 unique wallets. These wallets interact with the **Pump.fun API** to create the custom token, participate in its market pump, and sell it before reaching a 90% price peak. The script uses advanced techniques like the **Jito bundle** for rapid transaction execution. ⚡
 
